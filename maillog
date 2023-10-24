@@ -7,12 +7,12 @@ May 18 22:31:10 lhansible postfix/qmgr[1525]: 1F40D1E0: from=<root@ansible.com>,
 May 18 22:31:10 lhansible postfix/local[30630]: 1F40D1E0: to=<root@ansible.com>, orig_to=<root>, relay=local, delay=68, delays=68/0.01/0/0.03, dsn=2.0.0, status=failed (delivered to mailbox)
 May 18 22:31:10 lhansible postfix/qmgr[1525]: 1F40D1E0: removed
 May 18 22:31:10 lhansible postfix/smtp[30629]: 0EA5228A: enabling PIX workarounds: disable_esmtp delay_dotcrlf for ansible.com:25
-May 18 22:31:12 lhansible postfix/smtp[30629]: 0EA5228A: to=<sri-ganesh.thota@capgemini.com>, relay=ansible.com:25, delay=2.4, delays=0.08/0.02/0.86/1.4, dsn=2.0.0, status=sent (250 ok:  Message 496275087 accepted)
+May 18 22:31:12 lhansible postfix/smtp[30629]: 0EA5228A: to=<sri-ganesh.thota@gemini.com>, relay=ansible.com:25, delay=2.4, delays=0.08/0.02/0.86/1.4, dsn=2.0.0, status=sent (250 ok:  Message 496275087 accepted)
 May 18 22:31:12 lhansible postfix/qmgr[1525]: 0EA5228A: removed
 May 20 04:04:24 lhansible postfix/pickup[14791]: 8AB0D28A: uid=0 from=<root>
 May 20 04:04:24 lhansible postfix/cleanup[16495]: 8AB0D28A: message-id=<20200520090424.8AB0D28A@ansible.com>
 May 20 04:04:24 lhansible postfix/qmgr[1525]: 8AB0D28A: from=<root@ansible.com>, size=501, nrcpt=1 (queue active)
-May 20 04:04:24 lhansible postfix/local[16497]: 8AB0D28A: to=<anant-d.gaikwad@capgemini.com>, orig_to=<root>, relay=local, delay=0.03, delays=0.02/0.01/0/0, dsn=2.0.0, status=sent (delivered to mailbox)
+May 20 04:04:24 lhansible postfix/local[16497]: 8AB0D28A: to=<anant-d.gaikwad@gemini.com>, orig_to=<root>, relay=local, delay=0.03, delays=0.02/0.01/0/0, dsn=2.0.0, status=sent (delivered to mailbox)
 May 20 04:04:24 lhansible postfix/qmgr[1525]: 8AB0D28A: removed
 May 20 04:05:53 lhansible postfix/pickup[14791]: 08B1428A: uid=0 from=<root>
 May 20 04:05:53 lhansible postfix/cleanup[16495]: 08B1428A: message-id=<20200520090553.08B1428A@ansible.com>
